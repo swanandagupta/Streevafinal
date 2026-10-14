@@ -1,0 +1,17 @@
+# STREEVA Phase 4 Autonomous Emergency Response Configuration
+
+# Confirmation Countdown
+emergency_countdown_seconds: 15.0
+manual_sos_immediate_authorization: true
+manual_sos_countdown_seconds: 0.0
+
+# Escalation & Acknowledgement Timeouts
+acknowledgement_timeout_seconds: 60.0
+max_escalation_level: 3
+
+# Location Handling
+location_stale_threshold_seconds: 45.0
+allow_dispatch_without_location: true
+
+# Evidence Packaging
+evidence_hash_algorithm: "sha256"

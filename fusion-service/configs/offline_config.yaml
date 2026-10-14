@@ -1,0 +1,20 @@
+# STREEVA Phase 5 Offline Guardian & Connectivity Resilience Configuration
+
+# Connectivity Thresholds
+degraded_latency_ms: 1500.0
+heartbeat_interval_seconds: 30.0
+
+# Event Buffer & Reconciliation
+max_buffered_events: 10000
+reconciliation_batch_size: 50
+max_sync_retries: 3
+
+# Location Freshness
+offline_location_stale_seconds: 45.0
+
+# SMS Fallback Defaults
+sms_fallback_enabled: true
+sms_gateway_timeout_seconds: 10.0
+
+# Offline Countdown
+offline_emergency_countdown_seconds: 15.0

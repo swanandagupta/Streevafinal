@@ -1,0 +1,57 @@
+# STREEVA — Phase 3 Contextual Safety Configuration
+
+fusion_weights:
+  area_risk: 0.20
+  motion_anomaly: 0.15
+  route_deviation: 0.20
+  unexpected_stop: 0.15
+  fall_detection: 0.15
+  audio_distress: 0.15
+
+risk_thresholds:
+  low_max: 24.99
+  medium_max: 49.99
+  high_max: 74.99
+  # 75.0 - 100.0 is Critical
+
+contextual_interactions:
+  high_area_threshold: 60.0
+  area_deviation_boost: 12.0
+  stop_area_delay_boost: 10.0
+  audio_fall_boost: 15.0
+  audio_fall_correlation_window_s: 15.0
+
+
+temporal_decay:
+  fall_half_life_s: 120.0
+  audio_half_life_s: 60.0
+  general_half_life_s: 90.0
+
+hysteresis:
+  critical_escalation_consecutive: 2
+  high_escalation_consecutive: 1
+  deescalation_consecutive: 3
+  deescalation_margin_points: 5.0
+
+
+sensor_policies:
+  low:
+    gps_interval_s: 60.0
+    accel_sampling_rate_hz: 10.0
+    gyro_enabled: false
+    mic_duty_cycle_percent: 0.0
+  medium:
+    gps_interval_s: 15.0
+    accel_sampling_rate_hz: 25.0
+    gyro_enabled: true
+    mic_duty_cycle_percent: 25.0
+  high:
+    gps_interval_s: 5.0
+    accel_sampling_rate_hz: 50.0
+    gyro_enabled: true
+    mic_duty_cycle_percent: 50.0
+  critical:
+    gps_interval_s: 1.0
+    accel_sampling_rate_hz: 100.0
+    gyro_enabled: true
+    mic_duty_cycle_percent: 100.0

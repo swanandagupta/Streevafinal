@@ -1,0 +1,20 @@
+{
+  "classification_threshold": 0.5,
+  "test_samples": 614,
+  "test_distress_samples": 135,
+  "test_non_distress_samples": 479,
+  "confusion_matrix": {
+    "true_negative": 461,
+    "false_positive": 18,
+    "false_negative": 57,
+    "true_positive": 78
+  },
+  "sum_check": 614,
+  "accuracy": 0.8778501628664495,
+  "precision": 0.8125,
+  "recall": 0.5777777777777777,
+  "f1_score": 0.6753246753246753,
+  "roc_auc": 0.9178380886105312,
+  "false_positive_rate": 0.037578288100208766,
+  "false_negative_rate": 0.4222222222222222
+}

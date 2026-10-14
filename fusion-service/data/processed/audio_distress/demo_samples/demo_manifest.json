@@ -1,0 +1,17 @@
+[
+  {
+    "type": "neutral_speech",
+    "label": "NON_DISTRESS",
+    "path": "C:\\Users\\swana\\Desktop\\Swananada\\BTech\\Project\\STREEVA-main\\fusion-service\\data\\processed\\audio_distress\\demo_samples\\03-01-02-01-01-01-02-03-01-02.wav"
+  },
+  {
+    "type": "scream",
+    "label": "DISTRESS",
+    "path": "C:\\Users\\swana\\Desktop\\Swananada\\BTech\\Project\\STREEVA-main\\fusion-service\\data\\processed\\audio_distress\\demo_samples\\03-02-02-01-20-103-02-01-00-16.wav"
+  },
+  {
+    "type": "laughter",
+    "label": "NON_DISTRESS",
+    "path": "C:\\Users\\swana\\Desktop\\Swananada\\BTech\\Project\\STREEVA-main\\fusion-service\\data\\processed\\audio_distress\\demo_samples\\03-02-03-01-00-103-02-01-00-13.wav"
+  }
+]

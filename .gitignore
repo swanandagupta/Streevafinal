@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dependencies and generated output
+.venv/
+venv/
+node_modules/
+**/node_modules/
+frontend/dist/
+dist/
+build/
+
+# Datasets and archives
+*.rar
+*.zip
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Large raw datasets (re-downloadable; exceed GitHub limits)
+ASVP-ESD/
+fusion-service/data/raw/
+fusion-service/data/UCI HAR Dataset/
+fusion-service/data/UCI_HAR_Dataset.zip
+.coverage
+*.wav
+__MACOSX/
