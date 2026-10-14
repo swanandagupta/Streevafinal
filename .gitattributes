@@ -1,0 +1,5 @@
+area-risk-service/models/*.txt -text
+*.parquet binary
+*.tflite binary
+*.keras binary
+*.db binary
